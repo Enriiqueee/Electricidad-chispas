@@ -15,17 +15,15 @@ public class Autonomo implements Clientes{
 
     @Override
     public void setNombre(String name) {
-
+        this.nombre=nombre;
     }
 
-    @Override
     public String getApellidos() {
         return apellidos;
     }
 
-    @Override
     public void setApellido(String apellidos) {
-
+        this.apellidos=apellidos;
     }
 
     @Override
@@ -35,7 +33,7 @@ public class Autonomo implements Clientes{
 
     @Override
     public void setId(String Id) {
-
+        this.DNI=Id;
     }
 
     @Override
@@ -45,7 +43,7 @@ public class Autonomo implements Clientes{
 
     @Override
     public void setDireccionpostal(Integer direccionpostal) {
-
+        this.direccionpostal=direccionpostal;
     }
 
     @Override
@@ -55,7 +53,7 @@ public class Autonomo implements Clientes{
 
     @Override
     public void setPoblacion(String poblacion) {
-
+        this.poblacion=poblacion;
     }
 
     @Override
@@ -65,7 +63,7 @@ public class Autonomo implements Clientes{
 
     @Override
     public void setProvincia(String provincia) {
-
+        this.provincia=provincia;
     }
 
     @Override
@@ -75,7 +73,7 @@ public class Autonomo implements Clientes{
 
     @Override
     public void setEmail(String email) {
-
+        this.email=email;
     }
 
     @Override
@@ -85,6 +83,6 @@ public class Autonomo implements Clientes{
 
     @Override
     public void setTelefono(Integer telefono) {
-
+        this.telefono=telefono;
     }
 }

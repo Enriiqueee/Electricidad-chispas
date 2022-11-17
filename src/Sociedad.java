@@ -14,7 +14,7 @@ public class Sociedad implements Clientes {
 
     @Override
     public void setNombre(String name) {
-
+        this.razonsocial=razonsocial;
     }
 
     @Override
@@ -24,7 +24,7 @@ public class Sociedad implements Clientes {
 
     @Override
     public void setId(String Id) {
-
+        this.CIF=Id;
     }
 
     @Override
@@ -34,7 +34,7 @@ public class Sociedad implements Clientes {
 
     @Override
     public void setDireccionpostal(Integer direccionpostal) {
-
+        this.direccionpostal=direccionpostal;
     }
 
     @Override
@@ -44,7 +44,7 @@ public class Sociedad implements Clientes {
 
     @Override
     public void setPoblacion(String poblacion) {
-
+        this.poblacion=poblacion;
     }
 
     @Override
@@ -54,7 +54,7 @@ public class Sociedad implements Clientes {
 
     @Override
     public void setProvincia(String provincia) {
-
+        this.provincia=provincia;
     }
 
     @Override
@@ -64,7 +64,7 @@ public class Sociedad implements Clientes {
 
     @Override
     public void setEmail(String email) {
-
+        this.email=email;
     }
 
     @Override
@@ -74,6 +74,6 @@ public class Sociedad implements Clientes {
 
     @Override
     public void setTelefono(Integer telefono) {
-
+        this.telefono=telefono;
     }
 }
