@@ -1,7 +1,6 @@
-public class Autonomo implements Clientes{
-    private String nombre;
-    private String apellidos;
-    private String DNI;
+public class Sociedad implements Clientes {
+    private String razonsocial;
+    private String CIF;
     private Integer direccionpostal;
     private String poblacion;
     private String provincia;
@@ -10,7 +9,7 @@ public class Autonomo implements Clientes{
 
     @Override
     public String getNombre() {
-        return nombre;
+        return razonsocial;
     }
 
     @Override
@@ -19,18 +18,8 @@ public class Autonomo implements Clientes{
     }
 
     @Override
-    public String getApellidos() {
-        return apellidos;
-    }
-
-    @Override
-    public void setApellido(String apellidos) {
-
-    }
-
-    @Override
     public String getId() {
-        return DNI;
+        return CIF;
     }
 
     @Override
