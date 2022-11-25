@@ -1,5 +1,5 @@
 public class Sociedad implements Clientes {
-    private String razonsocial;
+    private String Razonsocial;
     private String CIF;
     private Integer direccionpostal;
     private String poblacion;
@@ -9,12 +9,12 @@ public class Sociedad implements Clientes {
 
     @Override
     public String getNombre() {
-        return razonsocial;
+        return Razonsocial;
     }
 
     @Override
     public void setNombre(String name) {
-        this.razonsocial=razonsocial;
+        this.Razonsocial=Razonsocial;
     }
 
     @Override
